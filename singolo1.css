@@ -1,0 +1,114 @@
+*{
+	margin: 0 auto;
+	padding:0;
+	text-decoration: none;
+}
+.width{
+	width: 1020px;
+}
+header{
+	background: #2d303a;
+	font-family:'Lato', Arial;
+	color: rgba(255, 255, 255, 255);
+	border-bottom: solid 6px #323746;
+}
+h1{
+	padding: 34px 445px 30px 40px;
+	display: inline-block;
+}
+h1 a{
+	color: rgba(255, 255, 255, 255);
+	font-size: 25px;
+}
+header span{
+	color: #f06c64;
+}
+nav{
+	display: inline-block;
+	font-size: 12px;
+}
+nav ul{
+	display: flex;
+}
+nav ul li{
+	list-style: none;
+}
+nav a{
+	color: rgba(255, 255, 255, 255);
+}
+.point::before{
+	color: #494e62;
+	content: "•";
+	padding: 11px;
+}
+main{
+	height: 600px;
+	background: #f06c64;
+	border-bottom: solid 6px #ea676b;
+}
+.slider{
+	position: relative;
+}
+.switchLeft{
+	position: absolute;
+	top: 47%;
+	left: 42px;
+	z-index: 2;
+}
+.switchRight{
+	position: absolute;
+	z-index: 2;
+	top: 47%;
+	right: 42px;
+}
+.switchRight:hover{
+	cursor: pointer;
+	border: solid 1px #fff;
+}
+.switchLeft:hover{
+	cursor: pointer;
+	border: solid 1px #fff;
+}
+.slide1{
+	z-index: 1;
+}
+.iPhone1{
+	padding: 40px 74px 40px 110px;
+}
+.iPhone2{
+	padding-bottom:160px;
+}
+h2{
+	font: normal 900 30px 'Lato',Arial;
+	color: #666d89;
+	padding: 50px 0 25px 40px;
+}
+h3{
+	font: normal 900 18px 'Lato',Arial;
+	color: #666d89;
+	padding-bottom: 15px;
+}
+footer p{
+	font: normal 12px 'Lato',Arial;
+	color: #878da9;
+	text-align: justify;
+	line-height: 1.6;
+}
+ .aboutServices{
+ 	font-size: 18px;
+	padding: 0 40px 40px;
+}
+.services{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	padding: 0 40px 75px;
+}
+.imgLeft{
+	display: grid;
+	grid-template-columns: 60px 220px;
+	grid-gap: 20px;
+}
+.imgLeft p{
+	grid-column-start: 2;
+}
