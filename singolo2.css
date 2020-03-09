@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	box-sizing: border-box;
+	margin:0;
+}
+html{
+	font-size: 10px;
+}
+body{
+	margin:0 auto;
+	max-width: 1020px;
+}
+header, main{
+	background: #2d303a;
+}
+h1{
+	padding: 60px 0 22px 41px;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 900;
+	color: #666d89;
+}
+.about-portfolio{
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: #666d89;
+	padding-left: 41px;
+}
+.navigation{
+	padding:16px 41px 0;
+}
+.navigation ul{
+	display: flex;
+}
+.navigation li{
+	list-style: none;
+	border:solid 1px #666d89;
+	border-radius: 5px;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1.2rem;
+	color: #666d89;
+	padding: 3px 6px;
+	margin-right: 10px;
+}
+.navigation li:hover{
+	cursor: pointer;
+	color: #fff;
+	border-color: #fff;
+}
+#pictures{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding:18px 41px 65px;
+	grid-gap: 17px;	
+}
+main{
+	border-bottom: solid 6px #323746;
+}
+footer{
+	background: #f2f2f2;
+	border-bottom: solid 6px #fff;
+}
+h2{
+	font-family: Lato, Arial, sans-serif;
+	font-size: 3rem;
+	font-weight: 900;
+	color:#666d89;
+	padding: 60px 0 25px 41px;
+}
+.about-us{
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: #666d89;
+	text-align: justify;
+	padding: 0 41px 50px;
+}
+.masters{
+	padding: 0 41px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 17px;
+	grid-auto-flow: row;
+}
+.card h3{
+	font-family: Lato, Arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #666d89;
+	padding: 10px 0;
+}
+.card p{
+	text-align: justify;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1.2rem;
+	color: #666d89;
+	padding-bottom: 35px;
+}
+.social img{
+	padding-right: 8px;
+	padding-bottom: 65px;
+}
